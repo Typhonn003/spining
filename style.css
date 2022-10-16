@@ -1,0 +1,24 @@
+.circulo {
+    width: 50px;
+    height: 50px;
+    border-top: 10px solid rgb(202, 52, 52);
+    border-right: 10px solid rgb(62, 62, 207);
+    border-bottom: 10px solid rgb(32, 136, 32);
+    border-left: 10px solid rgb(226, 199, 22);
+    border-radius: 50%;
+}
+
+.girando {
+    animation: 2s infinite girando;
+}
+
+@keyframes girando {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
